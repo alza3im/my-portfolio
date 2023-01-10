@@ -36,7 +36,7 @@ function Hero({ }: Props) {
                 <h2 className='text-sm uppercase text-grey-500 pb-2 tracking-[12px]'>
                     Full Stack Software Engineer
                 </h2>
-                <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
+                <h1 className='text-2xl lg:text-6xl font-semibold px-10'>
                     <span className='mr-3'>{text}</span>
                     <Cursor />
                 </h1>
