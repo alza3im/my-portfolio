@@ -6,7 +6,7 @@ type Props = {}
 
 function About({ }: Props) {
     return (
-        <div className='relative flex flex-rows h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+        <div className='relative flex flex-col h-screen text-center md:text-left lg:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
             <h3 className='absolute top-24 uppercase tracking-[20px] text-2xl'>
                 About
 
@@ -25,10 +25,10 @@ function About({ }: Props) {
                 }}
                 viewport={{ once: true }}
                 src='/images/portfolio.jpeg'
-                className='md:inline-flex hidden d-mb-20 md:mb-0 xs sm:mt-20 flex-shrink-0   object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[400px]'
+                className='-mb-20 md:mb-10 sm:mt-20 h-32 w-32 object-cover md:rounded-lg xl:w-[300px] xl:h-[400px] lg:w-[300px] lg:h-[400px]'
             />
 
-            <div className="max-h-20 md:max-h-80 lg:max-h-80 text-sm relative space-y-10 px-0 md:px-10">
+            <div className="max-h-20 md:max-h-80 lg:max-h-80 text-sm relative -mt-20 lg:mb-0  space-y-10 px-0 md:px-10">
                 <h4 className="lg:text-3xl text-4xl font-semibold">Here is a little background</h4>
 
                 <p className="bg-slate-100 p-1 rounded text-slate-500 ">
