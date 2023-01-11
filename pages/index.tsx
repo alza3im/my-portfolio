@@ -18,11 +18,11 @@ export default function Home() {
       </Head>
 
       <Header />
-      <section id="hero" className='snap-start'>
+      <section id="hero" className='lg:snap-start snap-none'>
         <Hero />
       </section>
 
-      <section id="about" className='snap-center'>
+      <section id="about" className='lg:snap-center snap-none'>
         <About />
       </section>
 
