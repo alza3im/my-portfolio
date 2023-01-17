@@ -23,7 +23,7 @@ function Header({ }: Props) {
                 }}>
                 <SocialIcon bgColor='transparent' fgColor='gray' url="https://www.linkedin.com/in/khalil-tarabulsi/" />
             </motion.div>
-            <motion.div className='flex flex-row items-center text-gray-300 cursor-pointer'
+            <motion.div className='flex flex-row items-center text-gray-300'
                 initial={{
                     x: 500,
                     opacity: 0,

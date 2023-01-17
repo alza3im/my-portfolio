@@ -33,12 +33,12 @@ function About({ }: Props) {
                     ❝ Meet Khalil, the fun-loving full-stack engineer with a passion for building awesome web applications! With a background in deep learning, cloud engineering and a love for all things tech❞
                 </p>
                 <p>
-                    I specialize in building and deploying cutting-edge web applications using the latest technologies. <b>My weapon of choice?</b> <span className="text-[#03A9F4] font-medium rounded-lg bg-indigo-50 px-2">Python and its trusty sidekick, Flask.  </span> With them, I've developed robust and scalable Rest APIs that have served as the backbone of many successful projects.
+                    I specialize in building and deploying cutting-edge web applications using the latest technologies. <b>My weapon of choice?</b> <span className="text-[#03A9F4] font-medium rounded-lg bg-indigo-50 px-2">Python and its trusty sidekick, Flask.  </span> With them, I&apos;ve developed robust and scalable Rest APIs that have served as the backbone of many successful projects.
                 </p>
 
-                <p>But I don't stop there, I'm <b>well-versed in Javascript frameworks such as</b> <span className="text-[#03A9F4] font-medium rounded-lg bg-indigo-50 px-2">React and Vue.js</span>, and I use them to create dynamic and responsive user interfaces that provide seamless experiences. When it comes to deployment, I <b> put my apps in the cloud</b>, <span className="text-[#03A9F4] font-medium rounded-lg bg-indigo-50 px-2">specifically AWS</span>, taking advantage of its scalability, reliability, and cost-effectiveness.</p>
+                <p>But I don&apos;t stop there, I&apos;m <b>well-versed in Javascript frameworks such as</b> <span className="text-[#03A9F4] font-medium rounded-lg bg-indigo-50 px-2">React and Vue.js</span>, and I use them to create dynamic and responsive user interfaces that provide seamless experiences. When it comes to deployment, I <b> put my apps in the cloud</b>, <span className="text-[#03A9F4] font-medium rounded-lg bg-indigo-50 px-2">specifically AWS</span>, taking advantage of its scalability, reliability, and cost-effectiveness.</p>
                 <p>
-                    <b> When it comes to data, I'm a real whiz! </b> I have a deep understanding of data management, <span className="text-[#03A9F4] font-medium rounded-lg bg-indigo-50 px-2"> with skills in cleaning, manipulating, and analyzing large datasets</span> using powerful libraries such as Pandas and Numpy. I can turn data into insights and insights into action.
+                    <b> When it comes to data, I&apos;m a real whiz! </b> I have a deep understanding of data management, <span className="text-[#03A9F4] font-medium rounded-lg bg-indigo-50 px-2"> with skills in cleaning, manipulating, and analyzing large datasets</span> using powerful libraries such as Pandas and Numpy. I can turn data into insights and insights into action.
                 </p>
 
             </div>
