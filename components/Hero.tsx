@@ -47,11 +47,11 @@ function Hero({ }: Props) {
                     <Link href="#experience">
                         <button className='heroButton hover:text-[#242424]'>Experience</button>
                     </Link>
-                    <Link href="#skills">
-                        <button className='heroButton hover:text-[#242424]'>Skills</button>
-                    </Link>
                     <Link href="#projects">
                         <button className='heroButton hover:text-[#242424]'>Projects</button>
+                    </Link>
+                    <Link href="#contact">
+                        <button className='heroButton hover:text-[#242424]'>Contact Me</button>
                     </Link>
                 </div>
             </div>
