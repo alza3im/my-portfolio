@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import ExperienceCard from './ExperienceCard'
 import useSWR from 'swr';
 
-interface experience {
+export interface experience {
     companyLogo: string;
     position: string;
     companyName: string;
@@ -46,7 +46,7 @@ function Experience({ }: Props) {
             <div className='w-full flex space-x-5 p-10 snap-x snap-mandatory  overflow-x-scroll mt-20 scrollbar scrollbar-track-slate-800 scrollbar-thumb-[#03A9F4]'>
                 {
                     Object.values(parsedData).map((experience: experience) => (
-                        < ExperienceCard companyLogo={experience.companyLogo} position={experience.position} companyName={experience.companyName} skills={experience.skills} startDate={experience.startDate} endDate={experience.endDate} summaryPoints={experience.summaryPoints} />
+                        < ExperienceCard experience={experience} />
                     ))
 
                 }

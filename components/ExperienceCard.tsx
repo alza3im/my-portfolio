@@ -1,18 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { experience } from './Experience'
 
 type Props = {
-    companyLogo: string;
-    position: string;
-    companyName: string;
-    skills: string[];
-    startDate: string;
-    endDate: string;
-    summaryPoints: string[];
+    experience: experience
 }
 
-function ExperienceCard({ companyLogo, position, companyName, skills, startDate, endDate, summaryPoints }: Props) {
+function ExperienceCard({ experience }: Props) {
     return (
         <article className='flex flex-col rounded-lg items-center space-y-6 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px]
         snap-always  p-10  hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 '>
@@ -32,22 +27,22 @@ function ExperienceCard({ companyLogo, position, companyName, skills, startDate,
                         }}
                         viewport={{ once: true }}
                         className='w-32 h-32  p-5 mx-auto rounded-full xl:w-[150px] xl:h-[150px] object-cover'
-                        src={companyLogo}
+                        src={experience.companyLogo}
                         alt="company logo"
                     />
                 </div>
 
-                <h4 className='text-2xl font-light mx-auto'>{position}</h4>
-                <h3 className='font-bold text-1xl mt-1 '>{companyName}</h3>
+                <h4 className='text-2xl font-light mx-auto'>{experience.position}</h4>
+                <h3 className='font-bold text-1xl mt-1 '>{experience.companyName}</h3>
                 <div className='flex space-x-2 my-2'>
-                    {skills.map((skill) => (
+                    {experience.skills.map((skill) => (
                         <Image src={skill} className='h-10 w-10 rounded-full' width={50} height={50} alt='' />
 
                     ))}
                 </div>
-                <p className='uppercase py-5 text-slate-500 text-sm'>{startDate} - {endDate} </p>
+                <p className='uppercase py-5 text-slate-500 text-sm'>{experience.startDate} - {experience.endDate} </p>
                 <ul className='list-disc space-y-4 ml-5 mb-10 text-xs '>
-                    {summaryPoints.map((summaryPoint) => (
+                    {experience.summaryPoints.map((summaryPoint) => (
                         <li>{summaryPoint}</li>
                     ))}
                 </ul>
