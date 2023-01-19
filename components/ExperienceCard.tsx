@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { experience } from './Experience'
+import { Experience } from './Experience'
 
 type Props = {
-    experience: experience
+    experience: Experience
 }
 
 function ExperienceCard({ experience }: Props) {
@@ -35,15 +35,15 @@ function ExperienceCard({ experience }: Props) {
                 <h4 className='text-2xl font-light mx-auto'>{experience.position}</h4>
                 <h3 className='font-bold text-1xl mt-1 '>{experience.companyName}</h3>
                 <div className='flex space-x-2 my-2'>
-                    {experience.skills.map((skill) => (
-                        <Image src={skill} className='h-10 w-10 rounded-full' width={50} height={50} alt='' />
+                    {experience.skills.map((skill, index) => (
+                        <Image key={index} src={skill} className='h-10 w-10 rounded-full' width={50} height={50} alt='' />
 
                     ))}
                 </div>
                 <p className='uppercase py-5 text-slate-500 text-sm'>{experience.startDate} - {experience.endDate} </p>
                 <ul className='list-disc space-y-4 ml-5 mb-10 text-xs '>
-                    {experience.summaryPoints.map((summaryPoint) => (
-                        <li>{summaryPoint}</li>
+                    {experience.summaryPoints.map((summaryPoint, index) => (
+                        <li key={index}>{summaryPoint}</li>
                     ))}
                 </ul>
             </div>

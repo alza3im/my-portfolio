@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import ExperienceCard from './ExperienceCard'
 import useSWR from 'swr';
 
-export interface experience {
+export interface Experience {
     companyLogo: string;
     position: string;
     companyName: string;
@@ -26,7 +26,8 @@ function Experience({ }: Props) {
     if (!data) return <div className='h-screen flex flex-col relative max-w-full px-10 text-1xl
     mx-auto items-center text-yellow-500'>Loading...</div>;
     //Handle the ready state and display the result contained in the data object mapped to the structure of the json file
-    const parsedData = JSON.parse(data)
+    const parsedData: Experience[] = JSON.parse(data)
+    // const parsedData = JSON.parse(data)
     return (
         <motion.div
             initial={{
@@ -45,8 +46,8 @@ function Experience({ }: Props) {
             </h3>
             <div className='w-full flex space-x-5 p-10 snap-x snap-mandatory  overflow-x-scroll mt-20 scrollbar scrollbar-track-slate-800 scrollbar-thumb-[#03A9F4]'>
                 {
-                    Object.values(parsedData).map((experience: experience) => (
-                        < ExperienceCard experience={experience} />
+                    Object.values(parsedData).map((experience) => (
+                        < ExperienceCard key={experience.companyName} experience={experience} />
                     ))
 
                 }
