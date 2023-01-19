@@ -1,0 +1,66 @@
+{
+    "Pixlee": {
+        "companyLogo": "/images/companyLogos/pixleeLogo.jpeg",
+        "position": "Software Engineer",
+        "companyName": "Pixlee Turnto",
+        "skills": [
+            "/images/companyLogos/pixleeLogo.jpeg"
+        ],
+        "startDate": "Sep 2021",
+        "endDate": "Sep 2022",
+        "summaryPoints": [
+            "Delivered a TikTok Uploader for Widgets, used across 100s of clients with over 1000s of widgets, to display TikTok content that generates increased click-through rate",
+            "Onboarded several developers into the company’s core python repository and assisted them with setting up their development environment and the completion of their first tickets.",
+            "Increased the code coverage of various core modules, by over 40%, by creating and validating Python tests, which lead to uncovering various bugs and fixing them.",
+            "Developed several TikTok Collections features that consisted of front-end Javascript components, Rails backend APIs for scheduling optimized python collection jobs following an MVC architecture."
+        ]
+    },
+    "Marine Thinking": {
+        "companyLogo": "/images/companyLogos/pixleeLogo.jpeg",
+        "position": "Software Engineer",
+        "companyName": "Pixlee Turnto",
+        "skills": [
+            "/images/companyLogos/pixleeLogo.jpeg"
+        ],
+        "startDate": "Sep 2021",
+        "endDate": "Sep 2022",
+        "summaryPoints": [
+            "Delivered a TikTok Uploader for Widgets, used across 100s of clients with over 1000s of widgets, to display TikTok content that generates increased click-through rate",
+            "Onboarded several developers into the company’s core python repository and assisted them with setting up their development environment and the completion of their first tickets.",
+            "Increased the code coverage of various core modules, by over 40%, by creating and validating Python tests, which lead to uncovering various bugs and fixing them.",
+            "Developed several TikTok Collections features that consisted of front-end Javascript components, Rails backend APIs for scheduling optimized python collection jobs following an MVC architecture."
+        ]
+    },
+    "Dash Hudson": {
+        "companyLogo": "/images/companyLogos/pixleeLogo.jpeg",
+        "position": "Software Engineer",
+        "companyName": "Pixlee Turnto",
+        "skills": [
+            "/images/companyLogos/pixleeLogo.jpeg"
+        ],
+        "startDate": "Sep 2021",
+        "endDate": "Sep 2022",
+        "summaryPoints": [
+            "Delivered a TikTok Uploader for Widgets, used across 100s of clients with over 1000s of widgets, to display TikTok content that generates increased click-through rate",
+            "Onboarded several developers into the company’s core python repository and assisted them with setting up their development environment and the completion of their first tickets.",
+            "Increased the code coverage of various core modules, by over 40%, by creating and validating Python tests, which lead to uncovering various bugs and fixing them.",
+            "Developed several TikTok Collections features that consisted of front-end Javascript components, Rails backend APIs for scheduling optimized python collection jobs following an MVC architecture."
+        ]
+    },
+    "Oman Computer Services": {
+        "companyLogo": "/images/companyLogos/pixleeLogo.jpeg",
+        "position": "Software Engineer",
+        "companyName": "Pixlee Turnto",
+        "skills": [
+            "/images/companyLogos/pixleeLogo.jpeg"
+        ],
+        "startDate": "Sep 2021",
+        "endDate": "Sep 2022",
+        "summaryPoints": [
+            "Delivered a TikTok Uploader for Widgets, used across 100s of clients with over 1000s of widgets, to display TikTok content that generates increased click-through rate",
+            "Onboarded several developers into the company’s core python repository and assisted them with setting up their development environment and the completion of their first tickets.",
+            "Increased the code coverage of various core modules, by over 40%, by creating and validating Python tests, which lead to uncovering various bugs and fixing them.",
+            "Developed several TikTok Collections features that consisted of front-end Javascript components, Rails backend APIs for scheduling optimized python collection jobs following an MVC architecture."
+        ]
+    }
+}
