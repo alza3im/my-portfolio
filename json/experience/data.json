@@ -4,7 +4,12 @@
         "position": "Software Engineer",
         "companyName": "Pixlee Turnto",
         "skills": [
-            "/images/companyLogos/pixleeLogo.jpeg"
+            "/images/skillsIcons/python.png",
+            "/images/skillsIcons/rails.png",
+            "/images/skillsIcons/javascript.png",
+            "/images/skillsIcons/react.png",
+            "/images/skillsIcons/redis.png",
+            "/images/skillsIcons/postgreesql.png"
         ],
         "startDate": "Sep 2021",
         "endDate": "Sep 2022",
@@ -16,51 +21,63 @@
         ]
     },
     "Marine Thinking": {
-        "companyLogo": "/images/companyLogos/pixleeLogo.jpeg",
-        "position": "Software Engineer",
-        "companyName": "Pixlee Turnto",
+        "companyLogo": "/images/companyLogos/marineThinkingLogo.jpeg",
+        "position": "Data Engineer",
+        "companyName": "Data Engineer",
         "skills": [
-            "/images/companyLogos/pixleeLogo.jpeg"
+            "/images/skillsIcons/python.png",
+            "/images/skillsIcons/awslambda.png",
+            "/images/skillsIcons/aws.png",
+            "/images/skillsIcons/docker.png",
+            "/images/skillsIcons/tensorflow.png"
         ],
-        "startDate": "Sep 2021",
-        "endDate": "Sep 2022",
+        "startDate": "Jan 2021",
+        "endDate": "Apr 2022",
         "summaryPoints": [
-            "Delivered a TikTok Uploader for Widgets, used across 100s of clients with over 1000s of widgets, to display TikTok content that generates increased click-through rate",
-            "Onboarded several developers into the company’s core python repository and assisted them with setting up their development environment and the completion of their first tickets.",
-            "Increased the code coverage of various core modules, by over 40%, by creating and validating Python tests, which lead to uncovering various bugs and fixing them.",
-            "Developed several TikTok Collections features that consisted of front-end Javascript components, Rails backend APIs for scheduling optimized python collection jobs following an MVC architecture."
+            "Developed and deployed data preprocessing containers for normalization and augmentation of image data fed into underwater object detection model.",
+            "Improved data organization and utilized memory space by developing a python script to combine multiple mini VOC datasets into one combined dataset"
         ]
     },
     "Dash Hudson": {
-        "companyLogo": "/images/companyLogos/pixleeLogo.jpeg",
-        "position": "Software Engineer",
-        "companyName": "Pixlee Turnto",
+        "companyLogo": "/images/companyLogos/dashHudsonLogo.jpeg",
+        "position": "Development Intern",
+        "companyName": "Dash Hudson",
         "skills": [
-            "/images/companyLogos/pixleeLogo.jpeg"
+            "/images/skillsIcons/python.png",
+            "/images/skillsIcons/vue-js.png",
+            "/images/skillsIcons/docker.png",
+            "/images/skillsIcons/mysql.png",
+            "/images/skillsIcons/elasticsearch.png"
         ],
-        "startDate": "Sep 2021",
-        "endDate": "Sep 2022",
+        "startDate": "Apr 2020",
+        "endDate": "Aug 2022",
         "summaryPoints": [
-            "Delivered a TikTok Uploader for Widgets, used across 100s of clients with over 1000s of widgets, to display TikTok content that generates increased click-through rate",
-            "Onboarded several developers into the company’s core python repository and assisted them with setting up their development environment and the completion of their first tickets.",
-            "Increased the code coverage of various core modules, by over 40%, by creating and validating Python tests, which lead to uncovering various bugs and fixing them.",
-            "Developed several TikTok Collections features that consisted of front-end Javascript components, Rails backend APIs for scheduling optimized python collection jobs following an MVC architecture."
+            "Created,fixed and tested Automated UI unit tests using frameworks like Cypress and Jest",
+            "Designed and implemented frontend components that fetched data from complex APIs and fit the company’s platform using modern JS frameworks and libraries mainly Vue.js and Vuex",
+            "Developed,modified and tested complex Restful APIs utilizing Python libraries like FlaskRestful, SQLAlchemy, pytest and developer tools like Insomnia/Postman and Pycharm debugger",
+            "Ensured team applied agile values and principles  by performing daily standups, checking team progress and understanding product planning throughout a month of being the team’s scrum master",
+            "Developed a clear understanding of continuous deployment frameworks and tools like TravisCi, Docker",
+            "Implemented filter features that required indexing, searching, and analytics over large data sets in the Elasticsearch platform"
         ]
     },
     "Oman Computer Services": {
-        "companyLogo": "/images/companyLogos/pixleeLogo.jpeg",
+        "companyLogo": "/images/companyLogos/ocsLogo.jpeg",
         "position": "Software Engineer",
-        "companyName": "Pixlee Turnto",
+        "companyName": "OCS Infotech",
         "skills": [
-            "/images/companyLogos/pixleeLogo.jpeg"
+            "/images/skillsIcons/python.png",
+            "/images/skillsIcons/php.png",
+            "/images/skillsIcons/javascript.png",
+            "/images/skillsIcons/mysql.png"
         ],
-        "startDate": "Sep 2021",
-        "endDate": "Sep 2022",
+        "startDate": "Sep 2016",
+        "endDate": "Apr 2019",
         "summaryPoints": [
-            "Delivered a TikTok Uploader for Widgets, used across 100s of clients with over 1000s of widgets, to display TikTok content that generates increased click-through rate",
-            "Onboarded several developers into the company’s core python repository and assisted them with setting up their development environment and the completion of their first tickets.",
-            "Increased the code coverage of various core modules, by over 40%, by creating and validating Python tests, which lead to uncovering various bugs and fixing them.",
-            "Developed several TikTok Collections features that consisted of front-end Javascript components, Rails backend APIs for scheduling optimized python collection jobs following an MVC architecture."
+            "Established a communication mean between the customers company by taking part in designing and developing company’s web portal using PHP’s Laravel along with HTML5, CSS3, Bootstrap and JavaScript (AJAX, jQuery).",
+            "Developed the company’s PBX’s Remote SMTP module that involved Postfix configuration triggered via a Bash script developed to modify Postfix files upon execution from the web GUI.",
+            "Facilitated clients’ network config tasks by fully developing web-based network module allowing admins to configure PBX’s network parameters through a GUI using an MVC PHP Framework and Python scripts",
+            "Improved client’s reporting experience by building graphic reports feature in the company’s PBX Call Detail Record module in a PHP Symfony environment, utilizing JavaScript libraries along with AJAX for REST API calls.",
+            "Configured company’s PBX system at client locations and applied network troubleshooting principles."
         ]
     }
 }
