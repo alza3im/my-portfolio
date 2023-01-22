@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import ExperienceCard from './ExperienceCard'
 import useSWR from 'swr';
+import { fetcher } from '../utilities/fetcher';
 
 export interface Experience {
     companyLogo: string;
@@ -14,10 +15,9 @@ export interface Experience {
 }
 
 type Props = {}
-const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
 function Experience({ }: Props) {
-    const { data, error } = useSWR('/api/staticdata', fetcher);
+    const { data, error } = useSWR('/api/experienceData', fetcher);
 
     //Handle the error state
     if (error) return <div className='h-screen flex flex-col relative max-w-full px-10 text-1xl
@@ -27,7 +27,6 @@ function Experience({ }: Props) {
     mx-auto items-center text-yellow-500'>Loading...</div>;
     //Handle the ready state and display the result contained in the data object mapped to the structure of the json file
     const parsedData: Experience[] = JSON.parse(data)
-    // const parsedData = JSON.parse(data)
     return (
         <motion.div
             initial={{
