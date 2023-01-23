@@ -50,7 +50,7 @@ const Contact = (props: Props) => {
                             Name
                         </label>
                         <input
-                            className="form-input focus:outline-none focus:shadow-outline"
+                            className="form-input w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                             id="name"
                             type="text"
                             placeholder="John Doe"
@@ -62,7 +62,7 @@ const Contact = (props: Props) => {
                             Email
                         </label>
                         <input
-                            className="form-input focus:outline-none focus:shadow-outline"
+                            className="form-input w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                             id="email"
                             type="email"
                             placeholder="johndoe@example.com"
@@ -74,7 +74,7 @@ const Contact = (props: Props) => {
                             Subject
                         </label>
                         <input
-                            className="form-input focus:outline-none focus:shadow-outline"
+                            className="form-input w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                             id="subject"
                             type="text"
                             placeholder="johndoe@example.com"
@@ -86,7 +86,7 @@ const Contact = (props: Props) => {
                             Message
                         </label>
                         <input
-                            className="form-input focus:outline-none focus:shadow-outline"
+                            className="form-input w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                             id="message"
                             type="text"
                             placeholder="Hey Khalil, I am in love with your profile..."

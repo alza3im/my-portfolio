@@ -12,7 +12,4 @@
         @apply font-light p-1 rounded
     }
 
-    .contactInput {
-        @apply w-full py-2 px-3 text-gray-700 leading-tight
-    }
 }
