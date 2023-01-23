@@ -40,7 +40,6 @@ To run this project locally, you will need to have Node.js and npm (or yarn) ins
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The application will be running at http://localhost:3000.
 
 ## Deployment
 
@@ -51,5 +50,6 @@ Check it out on [https://ktarabulsi.vercel.app/](https://ktarabulsi.vercel.app/)
 ## Contact
 
 If you have any questions or feedback, please feel free to contact me at khaleel_097@hotmail.com.
+
 
 Thank you for visiting my portfolio!
