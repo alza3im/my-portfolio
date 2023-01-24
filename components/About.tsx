@@ -27,7 +27,7 @@ function About({ }: Props) {
                 src='/images/portfolio.jpeg'
                 className='hidden sm:block lgmt-10 mt-40 xl:mt-10 lg:mt-10 h-32 w-32 object-cover md:rounded-lg xl:w-[300px] xl:h-[400px] lg:w-[300px] lg:h-[400px]'
             />
-            <div className=" overflow-y-scroll text-sm relative mt-28 sm:mt-10  lg:mb-0 space-y-10 px-0 md:px-10">
+            <div className="text-sm relative mt-28 sm:mt-10  lg:mb-0 space-y-10 px-0 md:px-10">
                 <h4 className="hidden sm:block md:block text-3xl sm:text-1xl font-semibold text-center sm:text-left md:text-left">Here is a little background</h4>
                 <p className="bg-slate-100 text-slate-500 font-serif">
                     ❝ Meet Khalil, the fun-loving full-stack engineer with a passion for building awesome web applications! With a background in deep learning, cloud engineering and a love for all things tech❞
